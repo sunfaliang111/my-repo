@@ -1,0 +1,10 @@
+$(function(){
+$("#userInfo").click(function(){
+
+
+
+
+})
+
+
+})
