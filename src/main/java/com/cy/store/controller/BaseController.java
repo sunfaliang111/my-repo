@@ -35,7 +35,7 @@ public class BaseController {
             result.setMessage("入力したパスワードが不正です。");
         } else if (e instanceof InsertException) {
             result.setState(5000);
-            result.setMessage("登録するさに、不明なエラーが発生しました。");
+            result.setMessage("登録する際に、不明なエラーが発生しました。");
         } else if (e instanceof UpdateException) {
             result.setState(5001);
             result.setMessage("更新に失敗しました。");
